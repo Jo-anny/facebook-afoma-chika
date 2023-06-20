@@ -117,9 +117,16 @@ li {
 li a{
   color: grey;
 }
-
+li a:hover{
+  text-decoration: underline;
+}
 li button{
   cursor: pointer;
+}
+
+hr{
+  color:grey;
+  opacity: 0.5;
 }
 
 .footer {
@@ -134,11 +141,19 @@ li button{
 
 .languages{
   width: 80%;
-  padding: 10px 50px;
+  padding: 0px 50px;
 } 
 
 .languages p{
   margin-left: 40px;
   margin-top: 0px;
   color:grey;
+}
+.firstList{
+  padding-top: 25px;
+}
+.copyright{
+  font-size: 11px;
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
